@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:MonitorG5XMLCleaner"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="507.894">
+        Title="CrepidoMonitorXMLCleaningTool" Height="450" Width="507.894">
     <Grid >
         <TextBox Name="tbFolder" HorizontalAlignment="Left" Height="23" Margin="21,22,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="303" AllowDrop="True" PreviewDragEnter="TbFolder_OnDragEnter" Drop="TbFolder_OnDrop" PreviewDragOver="TbFolder_OnPreviewDragOver"/>
         <TextBox Name="tbFolderTarget" HorizontalAlignment="Left" Height="23" Margin="25,343,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="376" IsEnabled="False" IsReadOnly="True"/>
@@ -16,7 +16,7 @@
         <Label Content="Map för xml för rensning" HorizontalAlignment="Left" Margin="21,0,0,0" VerticalAlignment="Top" Height="26" Width="148"/>
         <Label Content="Map för rensade xml" HorizontalAlignment="Left" Margin="25,321,0,0" VerticalAlignment="Top" Height="26" Width="119" IsEnabled="False" />
         <Button Name="btnSourceFolder" Content="Bläddra..." HorizontalAlignment="Left" Margin="329,22,0,0" VerticalAlignment="Top" Width="61" Click="BtnSourceFolder_OnClick" RenderTransformOrigin="5.479,-0.986"/>
-        <Button Name="btnOpenTarget"  Content="Öppna map" HorizontalAlignment="Left" Margin="25,371,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="BtnOpenTarget_OnClick"/>
+        <Button Name="btnOpenTarget"  Content="Öppna mapp i Explorer" HorizontalAlignment="Left" Margin="25,371,0,0" VerticalAlignment="Top" Width="144" IsEnabled="False" Click="BtnOpenTarget_OnClick"/>
         <Button Name="btnLoadFiles" Content="Ladda in filer" HorizontalAlignment="Left" Margin="25,60,0,0" VerticalAlignment="Top" Width="75" IsEnabled="False" Click="BtnLoadFiles_OnClick"/>
     </Grid>
 </Window>
